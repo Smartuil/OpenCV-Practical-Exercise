@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceDetectionComparison", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InvisibilityCloak", "InvisibilityCloak\InvisibilityCloak.vcxproj", "{4F4A9825-576F-4581-914D-A1C4C735A1CB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColorSpaces", "ColorSpaces\ColorSpaces.vcxproj", "{1437C77C-CE4B-4933-8514-663826C70FB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{4F4A9825-576F-4581-914D-A1C4C735A1CB}.Release|x64.Build.0 = Release|x64
 		{4F4A9825-576F-4581-914D-A1C4C735A1CB}.Release|x86.ActiveCfg = Release|Win32
 		{4F4A9825-576F-4581-914D-A1C4C735A1CB}.Release|x86.Build.0 = Release|Win32
+		{1437C77C-CE4B-4933-8514-663826C70FB9}.Debug|x64.ActiveCfg = Debug|x64
+		{1437C77C-CE4B-4933-8514-663826C70FB9}.Debug|x64.Build.0 = Debug|x64
+		{1437C77C-CE4B-4933-8514-663826C70FB9}.Debug|x86.ActiveCfg = Debug|Win32
+		{1437C77C-CE4B-4933-8514-663826C70FB9}.Debug|x86.Build.0 = Debug|Win32
+		{1437C77C-CE4B-4933-8514-663826C70FB9}.Release|x64.ActiveCfg = Release|x64
+		{1437C77C-CE4B-4933-8514-663826C70FB9}.Release|x64.Build.0 = Release|x64
+		{1437C77C-CE4B-4933-8514-663826C70FB9}.Release|x86.ActiveCfg = Release|Win32
+		{1437C77C-CE4B-4933-8514-663826C70FB9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
