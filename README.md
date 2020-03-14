@@ -10,3 +10,5 @@ Environment: OpenCV(>3.43), C++11, VS2017
 |[2.Face Detection](https://www.learnopencv.com/face-detection-opencv-dlib-and-deep-learning-c-python/)|[人脸识别的对比 – OpenCV, Dlib and Deep Learning](https://zhuanlan.zhihu.com/p/111925661)|
 |[3.InvisibilityCloak](https://www.learnopencv.com/invisibility-cloak-using-color-detection-and-segmentation-with-opencv/)|[基于OpenCV的颜色检测和分割的隐形斗篷](https://zhuanlan.zhihu.com/p/112219627)|
 |[4.ColorSpaces](https://www.learnopencv.com/color-spaces-in-opencv-cpp-python/)|[OpenCV中的颜色空间](https://zhuanlan.zhihu.com/p/112790325)|
+|[5.TextDetection](https://www.learnopencv.com/deep-learning-based-text-detection-using-opencv-c-python/)|[基于OpenCV的深度学习文本检测](https://zhuanlan.zhihu.com/p/112909119)|
+|[6.VideoStabilization](https://www.learnopencv.com/video-stabilization-using-point-feature-matching-in-opencv/)|[OpenCV中使用点特征匹配的视频稳定方法](https://zhuanlan.zhihu.com/p/113144000)|

@@ -123,8 +123,7 @@ int main()
  * @param detections 位置
  * @param confidences 分类概率
  */
-void decode(const Mat &scores, const Mat &geometry, float scoreThresh,
-	std::vector<RotatedRect> &detections, std::vector<float> &confidences)
+void decode(const Mat &scores, const Mat &geometry, float scoreThresh, std::vector<RotatedRect> &detections, std::vector<float> &confidences)
 {
 	detections.clear();
 	//判断是不是符合提取要求
@@ -170,8 +169,7 @@ void decode(const Mat &scores, const Mat &geometry, float scoreThresh,
 			float h = x0_data[x] + x2_data[x];
 			float w = x1_data[x] + x3_data[x];
 
-			Point2f offset(offsetX + cosA * x1_data[x] + sinA * x2_data[x],
-				offsetY - sinA * x1_data[x] + cosA * x2_data[x]);
+			Point2f offset(offsetX + cosA * x1_data[x] + sinA * x2_data[x], offsetY - sinA * x1_data[x] + cosA * x2_data[x]);
 			Point2f p1 = Point2f(-sinA * h, -cosA * h) + offset;
 			Point2f p3 = Point2f(-cosA * w, sinA * w) + offset;
 			//旋转矩形，分别输入中心点坐标，图像宽高，角度

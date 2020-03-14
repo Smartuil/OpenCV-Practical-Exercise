@@ -52,7 +52,7 @@ void onMouse(int event, int x, int y, int flags, void* userdata)
 	}
 }
 
-int main(int argc, const char** argv)
+int main1(int argc, const char** argv)
 {
 	// filename
 	// Read the input image
@@ -88,6 +88,8 @@ int main(int argc, const char** argv)
 		//Check next image in the folder
 		if (k == 'n')
 		{
+			if (image_number==9)
+				continue;
 			image_number++;
 			sprintf_s(filename, "images/rub%02d.jpg", image_number%nImages);
 			img = imread(filename);
@@ -96,6 +98,8 @@ int main(int argc, const char** argv)
 		//Check previous image in he folder
 		else if (k == 'p')
 		{
+			if(image_number==0)
+				continue;
 			image_number--;
 			sprintf_s(filename, "images/rub%02d.jpg", image_number%nImages);
 			img = imread(filename);
