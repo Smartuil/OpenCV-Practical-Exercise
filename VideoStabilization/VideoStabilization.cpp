@@ -148,12 +148,13 @@ void fixBorder(Mat &frame_stabilized)
 int main(int argc, char **argv)
 {
 	// Read input video 读取视频
-	VideoCapture cap("detect.mp4");
-
+	VideoCapture cap("detect.mp4"); 
+	//VideoCapture cap("C:/Users/Smartuil/Desktop/1.mp4");
+	
 	// Get frame count 读取视频总帧数
 	int n_frames = int(cap.get(CAP_PROP_FRAME_COUNT));
 	// Our test video may be wrong to read the frame after frame 1300
-	n_frames = 1300;
+	n_frames = 50;
 
 	// Get width and height of video stream 获取视频图像宽高
 	int w = int(cap.get(CAP_PROP_FRAME_WIDTH));
@@ -163,7 +164,7 @@ int main(int argc, char **argv)
 	double fps = cap.get(CAP_PROP_FPS);
 
 	// Set up output video 设置输出视频
-	VideoWriter out("video_out.mp4", CAP_OPENCV_MJPEG, fps, Size(2 * w, h));
+	VideoWriter out("video_out.mp4", CAP_ANY, fps, Size(2 * w, h));
 
 	// Define variable for storing frames 定义存储帧的相关变量
 	//当前帧RGB图像和灰度图
@@ -322,6 +323,9 @@ int main(int argc, char **argv)
 
 		//imshow("Before and After", frame_out);
 		out.write(frame_out);
+		char ret[8];
+		sprintf_s(ret,"%d.jpg",i);
+		imwrite(ret, frame_out);
 		cout << "out frame：" << i << endl;
 		//waitKey(10);
 	}

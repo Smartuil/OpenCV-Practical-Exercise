@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextDetection", "TextDetect
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VideoStabilization", "VideoStabilization\VideoStabilization.vcxproj", "{8676856A-4E30-4965-991F-3429590938C5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObjectDetection", "ObjectDetection\ObjectDetection.vcxproj", "{16EA556B-5C53-42A1-B166-BE847BDA3671}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{8676856A-4E30-4965-991F-3429590938C5}.Release|x64.Build.0 = Release|x64
 		{8676856A-4E30-4965-991F-3429590938C5}.Release|x86.ActiveCfg = Release|Win32
 		{8676856A-4E30-4965-991F-3429590938C5}.Release|x86.Build.0 = Release|Win32
+		{16EA556B-5C53-42A1-B166-BE847BDA3671}.Debug|x64.ActiveCfg = Debug|x64
+		{16EA556B-5C53-42A1-B166-BE847BDA3671}.Debug|x64.Build.0 = Debug|x64
+		{16EA556B-5C53-42A1-B166-BE847BDA3671}.Debug|x86.ActiveCfg = Debug|Win32
+		{16EA556B-5C53-42A1-B166-BE847BDA3671}.Debug|x86.Build.0 = Debug|Win32
+		{16EA556B-5C53-42A1-B166-BE847BDA3671}.Release|x64.ActiveCfg = Release|x64
+		{16EA556B-5C53-42A1-B166-BE847BDA3671}.Release|x64.Build.0 = Release|x64
+		{16EA556B-5C53-42A1-B166-BE847BDA3671}.Release|x86.ActiveCfg = Release|Win32
+		{16EA556B-5C53-42A1-B166-BE847BDA3671}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
