@@ -14,3 +14,4 @@ Environment: OpenCV(>3.43), C++11, VS2017
 |[6.VideoStabilization](https://www.learnopencv.com/video-stabilization-using-point-feature-matching-in-opencv/)|[OpenCV中使用点特征匹配的视频稳定方法](https://zhuanlan.zhihu.com/p/113144000)|
 |[7.ObjectDetection](https://www.learnopencv.com/deep-learning-based-object-detection-using-yolov3-with-opencv-python-c/)|[基于深度学习的目标检测](https://zhuanlan.zhihu.com/p/113825562)|
 |[8.CenterofBlob](https://www.learnopencv.com/find-center-of-blob-centroid-using-opencv-cpp-python/)|[使用OpenCV寻找平面图形的质心](https://zhuanlan.zhihu.com/p/115813693)|
+|[9.HuMoments](https://www.learnopencv.com/shape-matching-using-hu-moments-c-python/)|[使用Hu矩进行形状匹配](https://zhuanlan.zhihu.com/p/117344473)|
