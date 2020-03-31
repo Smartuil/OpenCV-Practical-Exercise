@@ -17,4 +17,5 @@ int main()
 	cout << "S0.png and S0.png : " << m1 << endl;
 	cout << "S0.png and K0.png : " << m2 << endl;
 	cout << "S0.png and S4.png : " << m3 << endl;
+	return 0;
 }

@@ -4,7 +4,7 @@
 using namespace cv;
 using namespace std;
 
-int main()
+int main1()
 {
 	//是否进行log转换
 	bool showLogTransformedHuMoments = true;
@@ -45,5 +45,5 @@ int main()
 	}
 	// One row per file
 	cout << endl;
-
+	return 0;
 }
